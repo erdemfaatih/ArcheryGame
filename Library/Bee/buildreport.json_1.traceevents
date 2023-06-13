@@ -1,0 +1,621 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1686490188610188, "dur": 2081496, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686490188610376, "dur": 11996, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686490188622374, "dur": 30505, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686490188652969, "dur": 670323, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686490189323294, "dur": 1355519, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686490190678815, "dur": 12868, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686490190692092, "dur": 10, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1686490189174821, "dur": 113466, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686490189175731, "dur": 33898, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686490189276215, "dur": 3299, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686490189279516, "dur": 8640, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686490189280036, "dur": 7501, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686490189291772, "dur": 1004, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686490189291195, "dur": 1599, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686490190692195, "dur": 132, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1686490189359069, "dur":867, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686490189359942, "dur":47, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1686490189360020, "dur":13, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1686490189360033, "dur":416, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1686490189360465, "dur":327, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686490189360792, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686490190651519, "dur":235, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686490190651754, "dur":25, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686490190651779, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686490190651781, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686490190651792, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686490190651793, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686490190651799, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686490190651799, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686490190651804, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686490190651805, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686490190651809, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686490190651810, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686490190651815, "dur":35, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686490190651850, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686490190651854, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686490190651855, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686490190651859, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686490190651860, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686490190651863, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686490190651864, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686490190651867, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686490190651868, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686490190651870, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686490190651871, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686490190651874, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686490190651875, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686490190651878, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686490190651879, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686490190651882, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686490190651883, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686490190651885, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686490190651886, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686490190651889, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686490190651890, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686490190651893, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686490190651894, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686490190651897, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686490190651898, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686490190651902, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686490190651903, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686490190651905, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686490190651919, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686490190651938, "dur":706, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1686490189360480, "dur":318, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686490189360799, "dur":3101, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686490189363907, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1686490189363911, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686490189364624, "dur":560, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1686490189365190, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1686490189365231, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686490189365996, "dur":3183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1686490189369183, "dur":11558, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686490189380744, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686490189380792, "dur":2716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686490189383526, "dur":17243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686490189400772, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686490189400779, "dur":750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686490189401546, "dur":211974, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686490189613526, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686490189613558, "dur":1498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686490189615072, "dur":372547, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686490189987641, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686490189987650, "dur":746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686490189988420, "dur":383618, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686490190372042, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686490190372049, "dur":1216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686490190373280, "dur":278243, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686490189360672, "dur":139, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686490189360811, "dur":3478, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686490189364290, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1686490189364443, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686490189365143, "dur":5390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1686490189370577, "dur":455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame.exe" }}
+,{ "pid":12345, "tid":2, "ts":1686490189371048, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686490189371051, "dur":874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame.exe" }}
+,{ "pid":12345, "tid":2, "ts":1686490189371940, "dur":35392, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686490189407335, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686490189407341, "dur":604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686490189407966, "dur":157478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686490189565452, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686490189565468, "dur":1507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686490189567016, "dur":27078, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686490189594096, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686490189594102, "dur":565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686490189594679, "dur":234740, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686490189829546, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686490189829564, "dur":941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686490189830518, "dur":152125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686490189982651, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686490189982668, "dur":1661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686490189984373, "dur":395794, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686490190380176, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686490190380193, "dur":2501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686490190382767, "dur":268811, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686490189360504, "dur":298, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686490189360802, "dur":3559, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686490189364361, "dur":1550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686490189365916, "dur":64, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686490189366811, "dur":2386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686490189369230, "dur":23883, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686490189393117, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686490189393122, "dur":12412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686490189405559, "dur":13866, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686490189419429, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686490189419436, "dur":656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686490189420107, "dur":812437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686490190232546, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686490190232552, "dur":555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686490190233119, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1686490190233133, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686490190233156, "dur":748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1686490190233917, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686490190233932, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686490190233935, "dur":1557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686490190235505, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686490190235518, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686490190235522, "dur":321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686490190235855, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686490190235868, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686490190235871, "dur":1264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686490190237180, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686490190237227, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686490190237237, "dur":1335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686490190238615, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686490190238663, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686490190238674, "dur":2341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686490190241061, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686490190241112, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686490190241125, "dur":1362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686490190242533, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":3, "ts":1686490190242582, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686490190242594, "dur":1856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":3, "ts":1686490190244497, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686490190244545, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686490190244557, "dur":6023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686490190250596, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686490190250611, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686490190250615, "dur":481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686490190251108, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686490190251120, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686490190251124, "dur":1213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686490190252349, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686490190252363, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686490190252366, "dur":379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686490190252757, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1686490190252775, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686490190252779, "dur":16850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1686490190269648, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686490190269665, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686490190269670, "dur":1950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686490190271642, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686490190271667, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686490190271674, "dur":1483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686490190273181, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1686490190273269, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686490190273275, "dur":816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1686490190274113, "dur":779, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1686490190274895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686490190274904, "dur":622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1686490190275562, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686490190275585, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686490190275591, "dur":2973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686490190278585, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686490190278608, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686490190278613, "dur":1236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686490190279872, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/level7.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686490190279897, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686490190279903, "dur":984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/level7.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686490190280908, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/level7" }}
+,{ "pid":12345, "tid":3, "ts":1686490190280931, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686490190280937, "dur":693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/level7" }}
+,{ "pid":12345, "tid":3, "ts":1686490190281650, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/level6.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686490190281672, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686490190281677, "dur":811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/level6.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686490190282514, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/level6" }}
+,{ "pid":12345, "tid":3, "ts":1686490190282539, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686490190282548, "dur":793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/level6" }}
+,{ "pid":12345, "tid":3, "ts":1686490190283362, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/level5.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686490190283384, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686490190283389, "dur":1096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/level5.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686490190284510, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/level5" }}
+,{ "pid":12345, "tid":3, "ts":1686490190284531, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686490190284536, "dur":679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/level5" }}
+,{ "pid":12345, "tid":3, "ts":1686490190285236, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/level4.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686490190285260, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686490190285265, "dur":1125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/level4.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686490190286418, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/level4" }}
+,{ "pid":12345, "tid":3, "ts":1686490190286440, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686490190286445, "dur":674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/level4" }}
+,{ "pid":12345, "tid":3, "ts":1686490190287149, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/level3.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686490190287171, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686490190287176, "dur":940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/level3.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686490190288135, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1686490190288156, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686490190288161, "dur":967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1686490190289148, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/level2.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686490190289170, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686490190289233, "dur":1002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/level2.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686490190290255, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1686490190290290, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686490190290295, "dur":679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1686490190290992, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686490190291011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686490190291016, "dur":789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686490190291822, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1686490190291841, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686490190291845, "dur":559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1686490190292420, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686490190292439, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686490190292443, "dur":789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686490190293250, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1686490190293269, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686490190293274, "dur":559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1686490190293849, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686490190293878, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686490190293882, "dur":811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686490190294711, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1686490190294732, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686490190294737, "dur":681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1686490190295436, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1686490190295510, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686490190295514, "dur":837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1686490190296368, "dur":355166, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686490189360587, "dur":220, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686490189360807, "dur":3493, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686490189364301, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1686490189364527, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686490189365372, "dur":5521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1686490189370946, "dur":28966, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686490189399916, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686490189399925, "dur":1412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686490189401366, "dur":87247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686490189488620, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686490189488631, "dur":2011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686490189490657, "dur":16200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686490189506860, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686490189506866, "dur":522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686490189507403, "dur":53027, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686490189560440, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686490189560457, "dur":1613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686490189562114, "dur":67233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686490189629350, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686490189629358, "dur":839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686490189630216, "dur":190314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686490189820539, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686490189820555, "dur":2499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686490189823072, "dur":152611, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686490189975693, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686490189975711, "dur":2375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686490189978125, "dur":184313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686490190162447, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686490190162533, "dur":1878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686490190164464, "dur":262947, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686490190427413, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686490190427420, "dur":447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686490190427880, "dur":223648, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686490189360717, "dur":105, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686490189360822, "dur":3290, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686490189364112, "dur":262696, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1686490189626810, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686490189626852, "dur":465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1686490189627336, "dur":49735, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686490189677073, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686490189677079, "dur":496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686490189677588, "dur":142676, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686490189820275, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686490189820293, "dur":2846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686490189823153, "dur":351546, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686490190174708, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686490190174726, "dur":2438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686490190177179, "dur":472105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686490190649287, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686490190649295, "dur":2153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686490190651465, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":5, "ts":1686490190651467, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686490189360945, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686490189360945, "dur":3160, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686490189364105, "dur":337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1686490189364444, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686490189367108, "dur":3680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1686490189370850, "dur":19958, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686490189390821, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686490189391035, "dur":885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686490189391939, "dur":211879, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686490189603825, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686490189603839, "dur":1263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686490189605136, "dur":21126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686490189626264, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686490189626270, "dur":500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686490189626783, "dur":44142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686490189670930, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686490189670940, "dur":971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686490189671935, "dur":747503, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686490190419453, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686490190419459, "dur":1278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686490190420791, "dur":230789, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686490189361053, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686490189361053, "dur":2857, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686490189363911, "dur":14525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1686490189378440, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686490189378609, "dur":858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1686490189379485, "dur":34623, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686490189414111, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686490189414117, "dur":564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686490189414699, "dur":96146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686490189510848, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686490189510903, "dur":671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686490189511598, "dur":26708, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686490189538309, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686490189538314, "dur":506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686490189538835, "dur":78860, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686490189617697, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686490189617702, "dur":470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686490189618184, "dur":27016, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686490189645203, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686490189645209, "dur":775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686490189645998, "dur":36155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686490189682159, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686490189682169, "dur":984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686490189683179, "dur":96201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686490189779390, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686490189779407, "dur":1720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686490189781174, "dur":631683, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686490190412866, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686490190412885, "dur":3902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686490190416800, "dur":234721, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686490189360703, "dur":111, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686490189360814, "dur":3357, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686490189364171, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1686490189364246, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686490189366345, "dur":4463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1686490189370848, "dur":20043, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686490189390895, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686490189391058, "dur":951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686490189392028, "dur":230120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686490189622170, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686490189622177, "dur":636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686490189622826, "dur":27748, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686490189650577, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686490189650582, "dur":486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686490189651080, "dur":50259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686490189701347, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686490189701363, "dur":1596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686490189703001, "dur":148339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686490189851346, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686490189851360, "dur":1656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686490189853054, "dur":134867, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686490189987924, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686490189987931, "dur":610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686490189988553, "dur":391334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686490190379899, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686490190379922, "dur":4762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686490190384736, "dur":266843, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686490189360741, "dur":84, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686490189360825, "dur":3272, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686490189364097, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1686490189364300, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686490189366663, "dur":4035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1686490189370757, "dur":251107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686490189621875, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686490189621890, "dur":722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686490189622628, "dur":51608, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686490189674240, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686490189674249, "dur":964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686490189675235, "dur":726719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686490190401957, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686490190401963, "dur":646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686490190402624, "dur":248930, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686490189360844, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686490189360845, "dur":3223, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686490189364068, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1686490189364127, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686490189366716, "dur":3968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1686490189370715, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":10, "ts":1686490189370804, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686490189371026, "dur":2752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":10, "ts":1686490189373795, "dur":17920, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686490189391717, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686490189391745, "dur":628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686490189392389, "dur":79632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686490189472042, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686490189472049, "dur":673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686490189472736, "dur":56512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686490189529256, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686490189529270, "dur":1235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686490189530518, "dur":21881, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686490189552402, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686490189552410, "dur":502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686490189552925, "dur":40532, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686490189593460, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686490189593467, "dur":561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686490189594041, "dur":30259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686490189624303, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686490189624308, "dur":722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686490189625042, "dur":202135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686490189827180, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686490189827187, "dur":3189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686490189830394, "dur":586553, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686490190416951, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686490190416959, "dur":769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686490190417746, "dur":233800, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686490189360817, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686490189360817, "dur":3311, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686490189364129, "dur":1014169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1686490190378307, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686490190378353, "dur":2044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1686490190380474, "dur":271042, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686490189360868, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686490189360868, "dur":3102, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686490189363970, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1686490189364048, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686490189378798, "dur":819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1686490189379637, "dur":20742, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686490189400383, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686490189400390, "dur":863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686490189401271, "dur":30563, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686490189431838, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686490189431845, "dur":521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686490189432380, "dur":138532, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686490189570920, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686490189570935, "dur":1372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686490189572348, "dur":509499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686490190081850, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686490190081857, "dur":2535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686490190084442, "dur":340194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686490190424645, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686490190424665, "dur":1734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686490190426456, "dur":225077, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686490189360963, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686490189360964, "dur":3132, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686490189364096, "dur":28476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":13, "ts":1686490189392575, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686490189392593, "dur":958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":13, "ts":1686490189393572, "dur":211481, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686490189605059, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686490189605072, "dur":1704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686490189606789, "dur":36403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686490189643195, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686490189643202, "dur":744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686490189643959, "dur":61681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686490189705649, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686490189705703, "dur":1679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686490189707427, "dur":656166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686490190363603, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686490190363621, "dur":3190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686490190366861, "dur":284664, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1686490189361034, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1686490189361034, "dur":3020, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1686490189364054, "dur":17126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1686490189381184, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1686490189381201, "dur":539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1686490189381761, "dur":20747, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686490189402514, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1686490189402527, "dur":819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686490189403369, "dur":213318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686490189616690, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1686490189616697, "dur":646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686490189617357, "dur":38137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686490189655515, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1686490189655523, "dur":667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686490189656205, "dur":561216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686490190217424, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1686490190217432, "dur":650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686490190218095, "dur":280110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686490190498209, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1686490190498216, "dur":661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686490190498891, "dur":152647, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1686490189361141, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1686490189361141, "dur":2832, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1686490189363975, "dur":261191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":15, "ts":1686490189625168, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1686490189625182, "dur":551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":15, "ts":1686490189625746, "dur":20346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1686490189646094, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1686490189646099, "dur":499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1686490189646610, "dur":61499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1686490189708111, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1686490189708117, "dur":541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1686490189708671, "dur":139563, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":15, "ts":1686490189848238, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1686490189848245, "dur":642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":15, "ts":1686490189848900, "dur":143432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":15, "ts":1686490189992338, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1686490189992351, "dur":1577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":15, "ts":1686490189993959, "dur":420320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":15, "ts":1686490190414288, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1686490190414305, "dur":2086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":15, "ts":1686490190416522, "dur":235051, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1686490189361159, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1686490189361159, "dur":2743, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1686490189363907, "dur":35967, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":16, "ts":1686490189399881, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1686490189400062, "dur":894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":16, "ts":1686490189400981, "dur":12355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1686490189413341, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1686490189413348, "dur":614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1686490189413983, "dur":177066, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1686490189591053, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1686490189591060, "dur":712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1686490189591787, "dur":193149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1686490189784945, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1686490189784963, "dur":788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1686490189785764, "dur":609227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":16, "ts":1686490190395000, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1686490190395019, "dur":1827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":16, "ts":1686490190396894, "dur":254625, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1686490189361227, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1686490189361227, "dur":2771, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1686490189363999, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":17, "ts":1686490189364076, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1686490189379409, "dur":548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":17, "ts":1686490189379971, "dur":25795, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1686490189405769, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1686490189405776, "dur":713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1686490189406510, "dur":87022, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1686490189493536, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1686490189493542, "dur":940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1686490189494505, "dur":69784, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1686490189564296, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1686490189564347, "dur":1436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1686490189565828, "dur":58439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1686490189624271, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1686490189624278, "dur":666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1686490189624958, "dur":25185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1686490189650146, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1686490189650152, "dur":548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1686490189650714, "dur":274924, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1686490189925673, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1686490189925680, "dur":907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1686490189926601, "dur":253061, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":17, "ts":1686490190179670, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1686490190179688, "dur":2033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":17, "ts":1686490190181773, "dur":415236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":17, "ts":1686490190597013, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1686490190597020, "dur":675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":17, "ts":1686490190597709, "dur":53817, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1686490189361245, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1686490189361246, "dur":2660, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1686490189363910, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":18, "ts":1686490189364035, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1686490189398668, "dur":1253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":18, "ts":1686490189399951, "dur":136644, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1686490189536599, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1686490189536606, "dur":704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1686490189537323, "dur":62142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1686490189599469, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1686490189599491, "dur":502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1686490189600008, "dur":558608, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1686490190158620, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1686490190158629, "dur":758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1686490190159403, "dur":227784, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":18, "ts":1686490190387191, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1686490190387202, "dur":855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":18, "ts":1686490190388074, "dur":263440, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1686490189361307, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1686490189361307, "dur":2690, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1686490189363998, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":19, "ts":1686490189364077, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1686490189379174, "dur":676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":19, "ts":1686490189379868, "dur":846727, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1686490190226606, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1686490190226624, "dur":2037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1686490190228711, "dur":246726, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":19, "ts":1686490190475441, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1686490190475450, "dur":800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":19, "ts":1686490190476268, "dur":175323, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1686490189361392, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1686490189361392, "dur":2721, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1686490189364113, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":20, "ts":1686490189364166, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1686490189366507, "dur":3629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":20, "ts":1686490189370197, "dur":2669, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":20, "ts":1686490189372870, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1686490189372875, "dur":874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":20, "ts":1686490189373766, "dur":40936, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1686490189414705, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1686490189414709, "dur":611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1686490189415341, "dur":77922, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1686490189493267, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1686490189493275, "dur":941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1686490189494236, "dur":14595, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1686490189508835, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1686490189508842, "dur":576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1686490189509437, "dur":564431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1686490190073878, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1686490190073898, "dur":2088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1686490190076045, "dur":273179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":20, "ts":1686490190349233, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1686490190349250, "dur":4786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Fatih/Desktop/Unity/ArcheryGame/ArcheryGame_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":20, "ts":1686490190354082, "dur":297449, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686490190653319, "dur":1412, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1686490190692358, "dur": 368, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686490190692080, "dur": 655, "ph": "X", "name": "Write chrome-trace events", "args": {} },
